@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h1 {
+    align-self: center;
+    font-size: 44px;
+    font-weight: 700;
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.flex-container div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.flex-container div:nth-of-type(even) {
+    align-self: flex-end;
+}
+.item1 {
+    background-color: rgb(153, 153, 186);
+}
+
+.item2 {
+    background-color: rgb(109, 109, 147);
+}
+
+.item3 {
+    background-color: rgb(77, 77, 119);
+}
+
+.item4 {
+    background-color: rgb(57, 57, 99);
+}
+.item5 {
+    background-color: rgb(41, 41, 76);
+}
